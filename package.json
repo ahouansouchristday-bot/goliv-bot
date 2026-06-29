@@ -1,0 +1,22 @@
+{
+  "name": "goliv-whatsapp-bot",
+  "version": "3.0.0",
+  "description": "Chatbot WhatsApp GoLiv Bénin — avec base de données et dashboard admin",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.20.0",
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.6.1",
+    "express": "^4.18.2",
+    "mongoose": "^8.0.0",
+    "node-cache": "^5.1.2",
+    "twilio": "^4.19.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
